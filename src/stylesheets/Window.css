@@ -1,0 +1,36 @@
+.main-container{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;                           
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 90%;
+    height: 90%;
+    min-height: 500px;
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side-container{
+    height: 90%;
+    width: 10%;
+    align-items: center;
+}
+
+.separator{
+  height: 90%;  
+  width: 2px;            
+  background-color: #000000;
+  opacity: 100%;
+}
+
+.add-icon{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logo{
+}

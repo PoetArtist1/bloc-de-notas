@@ -45,7 +45,7 @@
 
 .logo-container{
     display: flex;
-    min-height: 18px;
+    min-height: 10%;
     height: 10%;
     align-items: flex-start;
     justify-items: center;
@@ -58,4 +58,30 @@
     height: 90%;
     min-height: 480px;
     padding: 5px;
+}
+
+.h1-notes{
+    margin-bottom: 3%;
+}
+
+.notes-square-container{
+    display: flex;
+    gap: 2.2%;
+}
+
+.user-icon{
+    width: 3%;
+}
+
+.top-bar-container{
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.user-name{
+    font-family: 'Carmen Sans';
+    font-weight: bold;
+    font-size: 80%;
+    margin-left: -4%;
 }

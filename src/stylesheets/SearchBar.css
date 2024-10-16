@@ -1,41 +1,41 @@
 .search-container {
-    position: relative;                 /* Para que el ícono y el texto estén dentro del contenedor */
-    display: flex;                      /* Flexbox para organizar elementos */
-    align-items: center;                /* Centra verticalmente los elementos */
-    width: 100%;                        /* Ancho total de la barra de búsqueda */
-    max-width: 200px;                   /* Ancho máximo de la barra */
-    border-radius: 25px;                /* Bordes redondeados */
-    padding: 10px;                      /* Espaciado interno */
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 25px;
+    padding: 10px;
     background-color: aliceblue;
   }
   
   .search-icon-text {
-    display: flex;                      /* Flexbox para ícono y texto */
-    align-items: center;                /* Centra el ícono y texto verticalmente */
-    position: absolute;                 /* Para superponer sobre el input */
-    left: 15px;                         /* Espacio desde la izquierda */
-    pointer-events: none;               /* Permite que el input reciba el clic */
-    opacity: 1;                         /* Opacidad inicial */
-    transition: opacity 0.5s ease;      /* Transición suave para desvanecerse */
+    display: flex;                  
+    align-items: center;
+    position: absolute;
+    left: 15px;
+    pointer-events: none;
+    opacity: 1;
+    transition: opacity 0.5s ease;
   }
   
   .Searchicon-class {
-    width: 15px;                        /* Tamaño del ícono */
-    margin-right: 10px;                 /* Espacio entre ícono y texto */
+    width: 15px;
+    margin-right: 10px;
     opacity: 50%;
   }
   
   .search-input {
-    width: 100%;                        /* Input ocupa todo el espacio disponible */
-    border: none;                       /* Sin borde para el input */
-    outline: none;                      /* Sin borde de enfoque */
-    padding-left: 50px;                 /* Desplaza el texto para no superponerse con la lupa */
-    font-size: 16px;                    /* Tamaño del texto en el input */
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 50px;
+    font-size: 16px;
     background-color: aliceblue;
   }
   
   .search-input::placeholder {
-    color: transparent;                 /* Hace transparente el placeholder por defecto */
+    color: transparent;              
   }
   
   .search-text{

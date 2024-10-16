@@ -1,32 +1,33 @@
 .notes-container{
     background-color: aliceblue;
-    border-radius: 10px;
-    padding: 20px;                  
-    margin-bottom: 10px;           
+    border-radius: 7%;
+    padding: 2%;                            
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
     display: inline-block;
-    max-width: 200px;
+    max-width: 16%;
 }
 
 .title-text{
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 4%;
+    font-size: 90%;
 }
 
 .buttons-container{
   display: flex;
-  gap: 12px;
+  gap: 8%;
 }
 
 .date-text{
     font-weight: 600;
     opacity: 75%;
+    font-size: 65%;
 }
 
 .text-notes{
-    margin-right: 10px;
+    font-size: 75%;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 22%;
     font-weight: bold;
 }
 

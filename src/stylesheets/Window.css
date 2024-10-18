@@ -85,3 +85,22 @@
     font-size: 80%;
     margin-left: -4%;
 }
+
+.button-add{
+  
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+
+
+}
+
+.button-add:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.blurred {
+    filter: blur(5px);
+    pointer-events: none; /* Esto evita que se pueda interactuar con los elementos mientras está borroso */
+  }
+  

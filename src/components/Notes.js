@@ -1,6 +1,6 @@
 import React from 'react';
-import { ReactComponent as Editicon} from '../images/button-editicon.svg';
-import { ReactComponent as Delicon} from '../images/button-deleteicon.svg';
+import { ReactComponent as Editpng} from '../images/button-editicon.svg';
+import { ReactComponent as Delpng} from '../images/button-deleteicon.svg';
 import '../stylesheets/Notes.css';
 
 function Notes(){
@@ -15,8 +15,12 @@ function Notes(){
       <div className='bottom-container'>
         <p className='date-text'>15/10/2024</p>
         <div className='buttons-container'>
-          <Editicon className='edit-icon' width='28' height='28'/>
-          <Delicon className='del-icon' width='28' height='28'/>
+          <button className='edit-button'>
+            <Editpng className='edit-icon'/>
+          </button>
+          <button className='del-button'>
+            <Delpng className='delete-icon'/>
+          </button>
         </div>
       </div>  
     </div>

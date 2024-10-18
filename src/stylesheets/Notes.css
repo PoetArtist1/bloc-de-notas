@@ -36,3 +36,23 @@
     justify-content: space-between; 
     align-items: center;              
   }
+
+  .edit-icon, .delete-icon{
+    width: 28px;
+    height: auto;
+  }
+
+  .edit-button, .del-button{
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    width: 28px;
+  }
+
+.del-button:hover{
+    background-color: rgb(87, 87, 87);
+}
+
+.edit-button:hover{
+  background-color: rgb(87, 87, 87);
+}

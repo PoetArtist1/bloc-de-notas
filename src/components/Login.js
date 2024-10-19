@@ -8,11 +8,11 @@ function Login({ setToken, setUser }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = isRegister ? '/register' : '/login';
+    const url = isRegister ? 'register' : 'login';
     try {
-      const response = await axios.post(`http://localhost:3001${url}`, { username, password });
+      const response = await axios.post(`http://localhost:3001/${url}`, { username, password });
       setToken(response.data.token);
-      setUser(username);
+      setUser(response.data.user); // Establece el estado del usuario con el objeto completo
       // Guarda el token en el localStorage
       localStorage.setItem('token', response.data.token);
     } catch (error) {
